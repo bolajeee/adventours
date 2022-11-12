@@ -1,0 +1,388 @@
+/* 
+index page */
+
+body{
+    text-align: center;
+    font-family: "overpass" Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+h1, h2, h3, h4{
+    margin: 0 auto 5%;
+    font-family: "Roboto" Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 0 auto 5%;
+    text-align: left;
+}
+.title-p{
+    text-align: center;
+}
+.welcome{
+    margin: 30px 0 70px;
+}
+.heading{
+    margin: 4% auto 2%;
+}
+.heading-text{
+    color: black;
+    text-decoration: none;
+    font-size: 3rem;
+}
+.heading-text:hover{
+    color: #f25f70;
+}
+.btn-header{
+    background-color: #404040;
+}
+.navigations{
+    margin: auto;
+ }
+#navbarNav{
+    background-color: #f25f70;
+} 
+.nav-link{
+    padding: 16px;
+    color: #fff;
+}
+.nav-link:hover{
+    color: black;
+}
+.fa-brands{
+   color: #f25f70;
+}
+.social-icons{
+    margin: 1% auto;
+    
+}
+i{
+    width: 3rem;
+}
+li{
+    text-align: left;
+}
+.social-icons li{
+    list-style: none;
+    display: inline;
+}
+.mtn-img{
+    position: static;
+    width: 100%;
+    height: 500px;
+}
+
+.welcome-text{
+    color: #fff;
+   position: relative;
+   bottom: 400px;
+   left: 30%;
+   width: 40%;
+
+}
+
+.container-fluid{
+
+    padding: 3% 0;
+}
+
+.montain{
+    height: 530px;
+}
+@media(min-width:780px){
+.top-hr{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border-bottom: 1px solid;
+}
+@media(max-width:780px){
+.top-hr{
+    width: 425.99px;
+    border-bottom: 1px solid;
+}
+}
+}
+.content-text{
+    text-align: left;
+}
+@media (min-width:780px) {
+    .about-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-img {
+        width: 425.99PX;
+    }
+
+    .about-text {
+        width: 35%;
+        margin-left: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width:780px) {
+    .about-container {
+        display: block;
+        justify-content: center;
+    }
+
+    .about-img {
+        width: 425.99px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .about-text {
+        width: 60%;
+        margin: 3% auto;
+        text-align: left;
+    }
+}
+
+@media(min-width:780px) {
+    .trip-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .trip-text {
+        width: 30%;
+        text-align: left;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width:780px) {
+    .trip-container {
+        display: block;
+    }
+
+    .trip-text {
+        width: 60%;
+        margin: 0 20%;
+        flex: 1;
+    }
+
+    .trip-title {
+    
+        margin: 3% 0;
+    }
+
+    .trip-img {
+        width: 484px;
+        margin: auto;
+    }
+}
+.bottom-banner{
+    background-color: #404040;padding-top: 3%;
+    padding: 3% 5%;
+}
+  .buttom {
+      display: flex;
+      justify-content: center;
+      flex-basis: 80%;
+  }
+
+  .buttom img {
+      width: 94.44px;
+      height: 117px;
+  }
+@media (min-width:780px){
+  .swatch-row {
+      display: flex;
+      justify-content: center;
+  }
+
+  .swatch-item {
+      justify-content: space-between;
+      margin: 5px;
+  }
+}
+@media (max-width:750px) {
+.swatch-row{
+    display: flex;
+}
+.swatch-top{
+    justify-content: space-evenly;
+}
+.banner {
+    color: #fff;
+    text-align: left;
+    margin-left: 10px;
+}
+}
+@media (min-width:780){
+    .buttom{
+        display: flex;  
+        justify-content: space-evenly; 
+    }
+    .banner-item2,.banner-item3{
+        display: flex;
+        color: #fff;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+}
+@media(max-width:780px){
+    .buttom{
+        display: block;
+    }
+    .swatch-row{
+        flex-basis: 30%;
+        margin: 5% auto;
+        justify-content: space-evenly;
+    }
+    .swatch-row img{
+        width: 117.67px;
+    }
+    .banner-item2, .banner-item3{
+        text-align: left;
+        color: #fff;
+    }
+}
+.bottom-hr {
+    margin-top: 3%;
+    width: 5%;
+}
+
+.btn-footer {
+    background-color: #01010100;
+}
+
+.btn-touch{
+    background-color: #f25f70;
+    border: 0;
+    padding: 1% 2%;
+}
+.btn-touch-sm{
+    padding: 1% 1%;
+    margin-left: 5%;
+}
+.btn-touch:hover{
+    color:#404040;
+}
+.bottom-hr{
+    width: 5%;
+    position: relative;
+    left: 0;
+}
+.footer-title{
+    font-size: 1rem;
+    margin-bottom: 2%;
+}
+.footer{
+    text-align: left;
+    padding-left: 21%;
+    color: black;
+}
+.footer-link{
+    margin-top: 5%;
+    text-align: left;
+    padding-bottom: 5%;
+    color: black;
+    text-decoration: none;
+}
+.btn-footer{
+    border-radius: 5px;
+    border-color: #404040;
+    background-color: #fff;
+    max-width: fit-content;
+    padding: 7px 3px;
+}
+.btn-trip {
+    padding: 3% 2%;
+    background-color: #f25f70;
+    border: 0;
+}
+
+/* about-me-page */
+
+.about-me-title{
+    margin: 1% 0;
+}
+@media(min-width:780px){
+.about-me-container{
+    display: block;
+    justify-content: center;
+    padding: 1% 0;
+}
+.about-me-item1{
+    margin-left: auto;
+}
+.about-me-item2{
+    width: 50%;
+    margin: auto;
+
+}
+}
+.about-me-img {
+    width: 489px;
+}
+
+@media(max-width:780px){
+.about-me-item2 {
+    width: 90%;
+    margin: auto;
+    }
+}
+
+@media(min-width:780px){
+    .featured-container {
+            display: flex;
+            justify-content: center;
+
+        }
+    .featured-columb1 {
+        flex-basis: 30%;
+        margin: 10px;
+        text-align: left;
+    }
+
+    .featured-item{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .feature-item-up img{
+        width: 100px;
+        height: 120px;
+        margin: 10px;
+    }
+    .feature-item-down img{
+        width: 350px;
+        height: 220px;
+        margin: 10px;
+    }
+}
+@media (max-width:780px) {
+    .featured-item {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    .featured-columb1{
+        margin-bottom: 3%;
+    }
+        .feature-item-up img {
+            width: 180px;
+            height: 247.36px;
+            margin: 10px;
+        }
+    
+        .feature-item-down img{
+            width: 590px;
+        }
+}
+.about-me-p{
+    margin: 5% 0;
+}
+.br{
+    margin: 1%;
+}
+.buttom-colored{
+    background-color: #404040;
+    padding: 5%;
+}
+
